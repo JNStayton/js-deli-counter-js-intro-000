@@ -22,3 +22,4 @@ function currentLine (katzDeliLine) {
           waiting.push(` ${i+1}, ${katzDeliLine[i]}`);
         }
     return "The line is currently:" + waiting;
+}
